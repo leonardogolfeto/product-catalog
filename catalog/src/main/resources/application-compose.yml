@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://db:5432/"
+    username: root
+    password: root
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/

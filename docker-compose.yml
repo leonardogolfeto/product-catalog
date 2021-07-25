@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres:12
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+  discovery:
+    image: br.com.uol.compasso/discovery
+    depends_on:
+      - db
+    restart: on-failure
+  gateway:
+    image: br.com.uol.compasso/gateway
+    ports:
+      - 9999:9999
+    restart: on-failure
+    depends_on:
+      - db
+      - discovery
+  catalog:
+    image: br.com.uol.compasso/catalog
+    environment:
+      - SPRING_PROFILES_ACTIVE=compose
+    restart: on-failure
+    depends_on:
+      - db
+      - discovery
+      - gateway

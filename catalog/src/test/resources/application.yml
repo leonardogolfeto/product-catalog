@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    jpa:
+     hibernate:
+       ddl-auto: create-drop
+  liquibase:
+    change-log: classpath:/db/changelog/changelog-master.xml
+logging:
+  level:
+    org.testcontainers: INFO
