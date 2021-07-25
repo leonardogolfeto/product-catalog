@@ -1,4 +1,4 @@
-
+[![Java CI](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml)
 # Catálogo De Produtos
 
 ## Pré-requisitos
