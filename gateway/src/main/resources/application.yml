@@ -11,6 +11,18 @@ spring:
           uri: http://catalog:8080
           predicates:
             - Path=/products/**
+        - id: swagger
+          uri: http://catalog:8080
+          predicates:
+            - Path=/swagger-ui/**
+        - id: spring fox
+          uri: http://catalog:8080
+          predicates:
+            - Path=/v2/**
+        - id: swagger resources
+          uri: http://catalog:8080
+          predicates:
+            - Path=/swagger-resources/**
         - id: discovery module
           uri: http://discovery:8761
           predicates:

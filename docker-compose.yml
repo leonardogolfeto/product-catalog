@@ -4,7 +4,7 @@ services:
   db:
     image: postgres:12
     ports:
-      - 5432:5432
+      - 5431:5432
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
@@ -23,6 +23,8 @@ services:
       - discovery
   catalog:
     image: br.com.uol.compasso/catalog
+    ports:
+      - 8080:8080
     environment:
       - SPRING_PROFILES_ACTIVE=compose
     restart: on-failure
