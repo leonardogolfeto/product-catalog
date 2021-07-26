@@ -24,3 +24,7 @@ jobs:
       run: mvn clean package
     - name: jacoco-badge-generator
       uses: cicirello/jacoco-badge-generator@v2.3.0
+      with:
+        generate-branches-badge: true
+        jacoco-csv-file: >
+          catalog/target/site/jacoco/jacoco.csv
