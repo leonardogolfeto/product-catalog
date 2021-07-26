@@ -18,12 +18,13 @@
 - Docker
 - Docker Compose
 - Testcontainers
+- JaCoCo
 
 ## Importando projeto no Intellij
 
- 1. Clonar o projeto em um diretorio de sua preferência.
- 2. Abrir o intellij
- 3. No menu superior, acessar **File** > **Open**
+ 1. Clonar o projeto em um diretório de sua preferência.
+ 2. Abrir o Intellij
+ 3. No menu superior, acesse **File** > **Open**
  4. Navegar até a pasta onde o projeto foi clonado
  5. Double click no arquivo **pom.xml**
  6. Selecionar a opção **Open as Project**
