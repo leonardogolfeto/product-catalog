@@ -1,5 +1,16 @@
-[![Java CI](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml)  [![Coverage](.github/badges/jacoco.svg)](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml)
 # Catálogo De Produtos
+[![Java CI](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml)  [![Coverage](.github/badges/jacoco.svg)](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml)
+## Sobre
+
+Neste seviço é possível criar, alterar, visualizar e excluir um determinado produto, além de visualizar a lista de produtos atuais disponíveis.
+
+A documentação detalhada de todos os endpoints se encontra na nossa interface do [Swagger](#swagger-ui)
+
+Ao subir a aplicação com as configurações padrões, a porta que deve ser utilizada para as requisições é a **9999**.
+
+```shell
+https://localhost:9999/products/
+```
 
 ## Pré-requisitos
 
