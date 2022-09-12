@@ -1,5 +1,5 @@
 # Catálogo De Produtos
-[![Java CI](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml) ![Coverage](.github/badges/jacoco.svg)
+[![Java CI](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/leonardogolfeto/product-catalog/actions/workflows/build.yml)
 ## Sobre
 
 Neste seviço é possível criar, alterar, visualizar e excluir um determinado produto, além de visualizar a lista de produtos atuais disponíveis.
